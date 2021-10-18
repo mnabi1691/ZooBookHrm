@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZooBook.Hrm.Application\ZooBook.Hrm.Application.csproj" />
+    <ProjectReference Include="..\ZooBook.Hrm.Configuration\ZooBook.Hrm.Configuration.csproj" />
+  </ItemGroup>
+
+</Project>
